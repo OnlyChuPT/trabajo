@@ -1,0 +1,102 @@
+body {
+    background-image: url("https://st4.depositphotos.com/14560930/38483/i/450/depositphotos_384830998-stock-photo-natural-blue-onyx-marble-high.jpg");
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(101, 101, 101);
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery a {
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.textbox { 
+    background-color: #ddd;
+    border: 5px solid rgb(23, 23, 23);
+    border-color: rgb(36, 36, 36);
+}
+
+table.borde {
+    border: 2px black solid ;
+}
+
+.galeria-image {
+    width: 200px; 
+    height: 150px;
+    object-fit: cover;
+}
+
+.formulario {
+    margin: 100px;
+    background-color: antiquewhite;
+    border: 5px solid black;
+}
